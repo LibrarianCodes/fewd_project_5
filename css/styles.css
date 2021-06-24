@@ -1,0 +1,39 @@
+/*---Base Styles--*/
+
+* {
+    box-sizing: border-box;  
+    padding: 0;
+    margin:0;
+}
+
+/*--Search Bar--*/
+
+.searchbar {
+margin:  auto;
+width: 50%;
+height: 50%;
+text-align: left;
+padding: 20px;
+display: flex;
+justify-content: center;
+
+}
+
+input#search{
+    width: 80%;
+    height: 40px;
+    
+}
+
+/*--Grid Layout--*/
+
+.gallery {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 30px;
+
+}
+
